@@ -1,0 +1,111 @@
+body {
+  background: tan url(img/shattered.png);
+  font-family: helvetica, sans-serif;
+  color: #A27474;
+}
+/* Layout */
+.page {
+  width: 700px;
+  margin: 120px auto 10px;
+  text-align: center;
+  background: #E0DACE;
+  padding: 50px 20px 20px;
+  border: 7px solid #E7E2D6;
+}
+.preview {
+  font-size: 4em;
+  margin: 0 0.1em;
+}
+.logo {
+  font-size: 13em;
+}
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  color: #5F4A52;
+  font-family: georgia, serif;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+.footer {
+  margin-top: 100px;
+  font-size:  .8em;
+}
+/* text effects */
+.inset-large {
+  text-shadow: rgba(109, 70, 70, 0.6) -1px 0, rgba(109, 70, 70, 0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(109, 70, 70, 0.3) -1px -2px;
+}
+.inset {
+  text-shadow: rgba(109, 70, 70, 0.6) -1px 0, rgba(109, 70, 70, 0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(109, 70, 70, 0.3) -1px -1px;
+}
+a {
+  color: #664040;
+  text-decoration: none;
+}
+a.btn {
+  background-color: #fff;
+  display: block;
+  border-radius: 50%;
+  margin: 36px auto;
+  width: 144px;
+  height: 144px;
+  position: relative;
+  text-align: center;
+  line-height: 144px;
+  font-size: 1em;
+}
+a.btn:hover {
+  background-color: #E7E2D6;
+}
+
+@font-face {
+	font-family: 'Elainicons';
+	src:url('fonts/Elainicons.eot');
+	src:url('fonts/Elainicons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Elainicons.svg#Elainicons') format('svg'),
+		url('fonts/Elainicons.woff') format('woff'),
+		url('fonts/Elainicons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Elainicons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'Elainicons';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-sparkles:before {
+	content: "\e006";
+}
+.icon-feather:before {
+	content: "\2190";
+}
+.icon-ejg:before {
+	content: "\e001";
+}
+.icon-gem:before {
+	content: "\e002";
+}
+.icon-arrow:before {
+	content: "\e003";
+}
+.icon-triangle-hollow:before {
+	content: "\e004";
+}
+.icon-triangle:before {
+	content: "\e005";
+}
